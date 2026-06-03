@@ -1,0 +1,14 @@
+Day 1 Data Quality Summary
+
+1. Successfully loaded all 10 CSV datasets.
+2. Explored dataset structure using shape, dtypes, and head().
+3. fund_master contains 40 rows and 15 columns.
+4. No missing values found in fund_master.
+5. No duplicate records found in fund_master.
+6. Explored unique fund houses, categories, sub-categories, and risk categories.
+7. AMFI code validation completed between fund_master and nav_history.
+8. 40 unique AMFI codes found in both datasets.
+9. No missing codes detected.
+10. No extra codes detected.
+11. Successfully fetched live NAV data from mfapi.in API.
+12. Saved NAV history for HDFC, SBI, ICICI, Nippon, Axis, and Kotak schemes as CSV files.
